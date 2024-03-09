@@ -1,4 +1,3 @@
-# finalCapstone
 ## Final Capstone project 
 
 ### Contents
