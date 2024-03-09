@@ -12,35 +12,34 @@ The project is designed for a small business to help it manage tasks assigned to
 
 #### Features
 Initial login into the application with authentication stored in separate .txt file
+
 Register a new user
+
 Add a task with details : username, title, description, due date, date assigned
+
 View all tasks
+
 View tasks assigned to current logged in user
+
 Current user can update its assigned tasks to either mark them complete, update the due date or assign the task to another user
+
 Display statistics (number of users and tasks)
 
 Admin specific tasks :
+
 Generate user report - providing a summary of current users and statistics of various tasks assigned to them
+
 Generate Task report - providing a summary of total tasks tracked by the application, % of open tasks and % of overdue tasks
 
-Updates
-Existing functionality moved from main body to a set of functions, improving readability
-Issue of registering duplicate users fixed
-Option to edit tasks assigned to current user (mark as complete, reassign task, change due date)
-Functionality added to automatically update .txt file with these changes
-Option to generate task overview report with data regarding the status of tasks managed by the application
-Option to generate user overview report with data regarding allocation of tasks to users registered with the application and the status of tasks managed by application for each user
-Display statistics function modified to read in information directly from .txt files
-Control flow improved for better user experience
-Code checked for style consistency and descriptive variable names
-Thorough documentation added
-2 - Installation
-To install the application, simply click on 'task_manager.py'. This will bring up the code for the program in GitHub. In the top right, click on 'Download raw file' and save the file in a location of your choice.
+### 2 - Installation
+To install the application :
+1. Click on 'task_manager.py'. This will bring up the code for the program in GitHub.
+2. In the top right, click on 'Download raw file'
+3. Save the file in a location of your choice. Preferably create a new folder and store the file in that location (e.g. local drive or Desktop)
 
-3 - Instructions For Use
-In your IDE (e.g. Visual Studio Code), open the folder that you have saved the task manager in. It is important that you always have this folder open when using the task manager, as the program reads from and writes to text files that will be created and stored in this folder.
+### 3 - Instructions For Use
+In Visual Studio Code, open the folder that you have created while installation.
 
-ss1
 
 Open the task manager and run the program. The first time you run the program, two text files will be created in the folder: 'tasks.txt' and 'user.txt'. It is recommended that you do NOT open or edit these, unless you want to delete a task or a user (see later).
 
